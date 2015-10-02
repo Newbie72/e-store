@@ -1,0 +1,405 @@
+/*
+	Stylesheet Purpose: main
+	Author Name: Terence Smith
+*/
+body {
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0;
+	font-family: Georgia,'Open Sans', Helvetica, Arial,sans-serif;
+	
+}
+
+/*typography*/
+
+
+
+h2 {
+	float: left;
+	width: auto;
+	font-family: Raleway, sans-serif;
+	font-size: 24px;
+	font-weight: 200;
+
+
+}
+
+h3 {
+	float: left;
+	width: auto;
+	height: auto;
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	color: #7c7b7a;
+
+}
+
+h4 {
+	float: left;
+	width: auto;
+	height: auto;
+
+}
+
+h5 {
+	float: left;
+	width: auto;
+	height: auto;
+
+}
+
+h6 {
+	float: left;
+	width: auto;
+	height: auto;
+
+}
+
+p {
+	float: left;
+	width: auto;
+	font-size: 12px;
+}
+
+body {
+	background: #f3f3f3;
+}
+
+a {
+	text-decoration: none;
+	background: #d8d8d8;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 5px 15px 5px 15px;
+	
+
+}
+
+/*typography*/
+
+/*top-nav*/
+
+.content-wrap {
+	position: relative;
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+header {
+	float:left;
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+
+h1 {
+	float: left;
+	width: 161px;
+	height: auto;
+
+}
+
+h1 a.logo {
+	float: left;
+	width: 168px;
+	height: 72px;
+	background: url(../img/logo.png) no-repeat;
+	overflow: hidden;
+	text-indent: -9999px
+}
+
+ul.top-nav {
+	float: left;
+	width: auto;
+	margin: 43px 0 0 26px;
+	padding: 0;
+	display: inline;
+}
+
+ul.top-nav li {
+	float: left;
+	width: auto;
+	list-style: none;
+	display: block;
+	margin: 0;
+}
+
+ul.top-nav li a {
+	float: left;
+	width: auto;
+	padding: 5px 10px;
+	background: transparent;
+	color: #000000;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+ul.top-nav li a:hover {
+	background: #fff;
+	color: #000000;
+	text-shadow: -1px -1px 2px #9c9c9c;
+	border: 1px solid #c8c8c7;
+	box-shadow: inset 0px 0px 7px 0px #fff;
+	border-style: dotted;
+}
+
+.search {
+	float: right;
+	width: 162px;
+	border: solid 1px red;
+	margin: 47px 0 0 0;
+}
+
+/*top-nav*/
+
+/*mid-nav*/
+
+ul.mid-nav {
+	float: left;
+	width: 100%;
+	height: 56px;
+	display: inline;
+	background-color: #cacaca;
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+}
+
+ul.mid-nav li {
+	float: left;
+	width: auto;
+	list-style: none;
+	display: block;
+	margin: 0;
+}
+
+ul.mid-nav li a {
+	float: left;
+	width: auto;
+	background: transparent;
+	color: #686868;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-shadow: 1px 1px 0 #f3f3f3;
+	letter-spacing: -1px;
+	padding: 20px 19px;
+}
+
+.mantle-wrap {
+	float: left;
+	width: 100%;
+	height: 500px;
+	background-color: #e85874;
+	margin-top: -25px;
+}
+
+.mantle-txt {
+	float: right;
+	width: 479px;
+	height: 206px;
+	background: url(../img/mantle-txt-bg.png) no-repeat;
+	margin-top: 295px;
+	color: #7c7b7a;
+}
+
+.mantle-txt h2 {
+	float: left;
+	width: 355px;
+	font-size: 36px;
+	margin: 0 32px;
+	font-family: Georgia;
+}
+
+.mantle-txt p {
+	float: left;
+	width: 355px;
+	font-size: 12px;
+	margin: 0 32px;
+	font-family: Georgia;
+}
+
+.daily-deals-wrap {
+	float: left;
+	position: relative;
+	width: 223px;
+	height:195px;
+	background: url(../img/product-border.png) no-repeat;
+	margin-top: 45px;
+	
+}
+
+.daily-deals-wrap p {
+	position: absolute;
+	top: 23px;
+	left: 10px;
+	color: #fff;
+	margin: 0;
+}
+.daily-deals-wrap img {
+	float: left;
+	position: relative;
+	margin: 36px 0 0 40px;
+	z-index: 1;
+}
+.daily-deals-wrap h4 {
+	float: left;
+	margin: 0;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 200;
+}
+.daily-deals-wrap a {
+	float: left;
+	margin: 15px 40px 10px 10px;
+}
+
+.deals {
+	float: left;
+	width: 718px;
+	height: 845px;
+	background-color: #fff;
+	border: 1px solid gray;
+	border-right: none;
+	border-radius: 10px 0 0 10px;
+	margin-top: 50px;
+	position: relative;
+
+}
+
+.daily-deals-wrap-1 {
+	float: left;
+	position: relative;
+	width: 236px;
+	height: auto;
+	border-left: none;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	
+
+}
+
+.price-bubble {
+	background: url(../img/price-bubble.png) no-repeat;
+	position: absolute;
+	color: #ede7c2;
+	width: 60px;
+	height: 45px;
+	z-index: 1;
+	top: 102px;
+	left: 5px;
+	padding: 5px 5px 9px 4px;
+}
+
+.price-banner {
+	background: url(../img/price-banner-1.png) no-repeat;
+	position: absolute;
+	color: red;
+	width: 102px;
+	height: 102px;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+}
+.daily-deals-wrap-1 img {
+	position: relative;
+	z-index: 0;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 4px;
+	margin-left: 20px;
+	margin-top: 23px;
+}
+
+.daily-deals-wrap-1 h2,
+.daily-deals-wrap-1 p {
+	margin: 10px 0 0 20px;
+	width:185px;
+}
+
+.daily-deals-wrap-1 p {
+	font-weight: 200;
+	font-family: Georgia, Arial, sans-serif;
+	color: #7c7b7a;
+}
+
+.daily-deals-wrap-1 a {
+	margin:15px 0 20px 88px;
+}
+
+.daily-deals-wrap-1 a, 
+.daily-deals-wrap a {
+	border: 1px solid gray;
+	border-radius: 5px;
+	float: left;
+	width: auto;
+	height: auto;
+
+}
+
+.nb {
+	
+	border-right: none;
+	border-radius: 0;
+	width: 244px;
+}
+
+.sidebar-wrap {
+	float: left;
+	width: 238px;
+	height: auto;
+	background: #e9e7e3;
+	border: 1px solid #334049;
+	margin-top: 50px;
+}
+
+.recentpost {
+	padding: 16px 0 10px 24px;
+	text-align: left;
+	border: 1px solid #fff;
+	border-bottom: 1px solid #979797;
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	color: #5f5e5e;
+	background: url(../img/sidebar-bg.png) no-repeat;
+
+}
+
+.side {
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	color: #807f7f;
+	line-height: 18px;
+}
+.side li {
+	margin: 15px 0 21px 0;
+}
+
+ul.page {
+	float: left;
+	width: auto;
+	height: auto;
+	display: inline;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
